@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9839F1CE-F29C-4F6B-AE1D-EE04CCD2D839}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>highschool</RootNamespace>
+    <AssemblyName>highschool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CourseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CourseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSourcePersonel.cs">
+      <DependentUpon>DataSourcePersonel.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSourcePersonel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSourcePersonel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMAmuzeshi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMAmuzeshi.Designer.cs">
+      <DependentUpon>frmMAmuzeshi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNazem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNazem.Designer.cs">
+      <DependentUpon>frmNazem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDaftardar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDaftardar.Designer.cs">
+      <DependentUpon>frmDaftardar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HighSchoolDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HighSchoolDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMAmuzeshi.resx">
+      <DependentUpon>frmMAmuzeshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNazem.resx">
+      <DependentUpon>frmNazem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CourseDataSet3.xsc">
+      <DependentUpon>CourseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CourseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CourseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CourseDataSet3.xss">
+      <DependentUpon>CourseDataSet3.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmDaftardar.resx">
+      <DependentUpon>frmDaftardar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourcePersonel.xsc">
+      <DependentUpon>DataSourcePersonel.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourcePersonel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSourcePersonel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSourcePersonel.xss">
+      <DependentUpon>DataSourcePersonel.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet.xsc">
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet.xss">
+      <DependentUpon>HighSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet1.xsc">
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet1.xss">
+      <DependentUpon>HighSchoolDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet2.xsc">
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet2.xss">
+      <DependentUpon>HighSchoolDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet3.xsc">
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet3.xss">
+      <DependentUpon>HighSchoolDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet4.xsc">
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet4.xss">
+      <DependentUpon>HighSchoolDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet5.xsc">
+      <DependentUpon>HighSchoolDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HighSchoolDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HighSchoolDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HighSchoolDataSet5.xss">
+      <DependentUpon>HighSchoolDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

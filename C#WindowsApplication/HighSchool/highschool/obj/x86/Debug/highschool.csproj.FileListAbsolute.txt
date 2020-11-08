@@ -1,0 +1,13 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\bin\Debug\highschool.exe.config
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\bin\Debug\highschool.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\bin\Debug\highschool.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.frmDaftardar.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.Properties.Resources.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.frmMAmuzeshi.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.frmNazem.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\HighSchool\highschool\obj\x86\Debug\highschool.Login.resources
